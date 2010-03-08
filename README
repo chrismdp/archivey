@@ -1,0 +1,3 @@
+Archivey is a little google wave robot which removes all but the last 5 blips from a wave.
+
+To use it, add archiveyrobot@appspot.com to your wave. Make sure you're happy for it to start deleting blips! Don't forget that they're in the history so you can always fallback if necessary.
