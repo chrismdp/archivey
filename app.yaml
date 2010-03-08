@@ -5,7 +5,7 @@ api_version: 1
 
 handlers:
 - url: /_wave/.*
-  script: archivey.py
+  script: app.py
 - url: /test.*
   script: gaeunit.py
 - url: /assets
