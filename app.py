@@ -9,7 +9,7 @@ import logging
 def Main():
 	_robot = robot.Robot('Archivey', 
 		image_url='http://archiveyrobot.appspot.com/assets/icon.png',
-		profile_url='http://archiveyrobot.appspot.com/')
+		profile_url='http://bit.ly/dbUZzt')
 	_robot.register_handler(events.WaveletBlipCreated, OnBlipCreated, events.Context.ALL)
 	appengine_robot_runner.run(_robot)
 
