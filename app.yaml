@@ -8,3 +8,5 @@ handlers:
   script: archivey.py
 - url: /test.*
   script: gaeunit.py
+- url: /assets
+  static_dir: assets
