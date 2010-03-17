@@ -8,5 +8,7 @@ handlers:
   script: app.py
 - url: /test.*
   script: gaeunit.py
+- url: /config
+  static_dir: config
 - url: /assets
   static_dir: assets
